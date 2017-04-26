@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper {
+	margin:0 auto;
+	width:1550px;
+	height:2000px;
+	background-color:#F0F0F0;
+	border:#000 solid 1px;
+}
+.header {
+	position:relative;
+	width:100%;
+	height:13%;
+	border-bottom:#000 solid 1px;
+}
+.logo-text-banner {
+	width:100%;
+	height:75%;
+	border-bottom:#000 solid 1px;
+	background-color:#09F;
+}
+.logo {
+	position:absolute;
+	top:25px;
+	left:20px;
+	float:left;
+	width:150px;
+	height:150px;	
+}
+.title {
+	position:absolute;
+	top:0px;
+	left:100px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.text {
+	position:absolute;
+	top:35px;
+	left:100px;
+	width:400px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+}
+.banner-1 {
+	position:absolute;
+	top:10px;
+	right:45px;
+	width:525px;
+	height:175px;
+	float:right;
+	background-color:#FF0;
+}
+.menu {
+	width:100%;
+	height:25%;
+	background-color:#FC3;	
+}
+.menu-bar {
+	position:absolute;
+	top:215px;
+	left:20px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FF9;
+	float: left;
+}
+.menu-bar ul {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+}
+.menu-bar ul li {
+	float: left;
+	border-right:#000 dotted 1px;
+	border-top:#000 dotted 1px;
+	border-bottom:#000 dotted 1px;
+	display:inline;
+	text-align:center;
+	line-height:30px;
+	width:200px;
+}
+.menu-bar ul li a {
+	display: block;
+	text-decoration: none;
+	color:#000;
+	font-weight:bold;
+}
+.menu-bar ul li a:hover {
+	background-color: #F93;
+	transition:0.5s;
+}
+.selected {
+	background-color: #F93;
+}
+.menu-bar ul li ul {
+	position: absolute;
+	display: none;
+	width: 200px;
+}
+.menu-bar ul li:hover ul {
+	display: block;
+	transition:0.5s;
+}
+.menu-bar ul li ul li {
+	width: 100%;
+	background-color: #FF9;
+	border-bottom:#000 dotted 1px;
+}
+.signin-signup {
+	position:absolute;
+	left:900px;
+	bottom:15px;
+	width:200px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FF9;
+}
+.signin-signup ul {
+	margin: 0px;
+	padding: 0px;
+}
+.signin-signup ul li {
+	display:inline;
+	line-height:30px;
+	width:200px;
+	position:relative;
+}
+.signin-signup ul a {
+	display: block;
+	text-decoration: none;
+	color:#000;
+	text-align:center;
+	font-weight:bold;
+}
+.signin-signup ul li ul {
+	display:none;
+}
+.signin-signup ul li:hover ul {
+	display:table;
+	position:absolute;
+	clear:both;
+}
+.signin-signup ul li ul form li {
+	padding:10px 0 0 10px;
+}
+.signin-signup ul li ul form {
+	background-color: #FF9;
+	width:300px;
+	height:100px;
+}
+.signin-signup ul:hover{
+	background-color: #F93;
+	transition:0.5s;
+}
+.signup {
+	float:right;
+	text-decoration:none;
+	padding:3px 15px 0 0;
+	font-size:14px;
+}
+label {
+	width:110px;
+	padding-left:10px;
+	float:left;
+}
+.button {
+	width:100px;
+	margin-right:25px;
+}
+.searchform {
+	position:absolute;
+	left:1155px;
+	bottom:15px;
+	border:#00afdd 2px solid;
+	height:27px;
+	width:350px;
+}
+.searchform input[type=text] {
+	width:270px;
+	height:21px;
+	border:0px;
+	background:#ffffff;
+	float:left;
+	margin:0px;
+	padding:3px;
+}
+.searchform input[type=submit] {
+	border:#00afdd 2px solid;
+	float:right;
+	margin:2px 2px 2px 2px;
+	height:23px;
+	padding-top:1px;
+	background:#4fbfdc;
+}
+.content {
+	width:100%;
+	height:1400px;
+}
+.left {
+	float:left;
+	width:60%;
+	height:1350px;
+}
+.news {
+	background-color:#FFF;
+	width:95%;
+	height:180px;
+	margin:15px 0 15px 20px;
+}
+.news-image {
+	float:left;
+	margin:15px 0 0 15px;
+}
+.news-title {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	padding:15px 0 0 175px;
+}
+.news-detail {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding:10px 0 10px 175px;
+}
+.right {
+	float:left;
+	width:30%;
+	height:1350px;
+	margin:15px 0 0 50px;
+	border-left:#000 dotted 1px;
+}
+.t-news {
+	width:100%;
+	height:550px;
+	background-color:#FFF;
+	margin:0 0 15px 50px;
+}
+.tn-title {
+	width:97%;
+	height:35px;
+	border-bottom:#000 dotted 1px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 0 0 15px;
+}
+.trending {
+	padding-bottom:45px;
+}
+.t-image {
+	width:80px;
+	height:80px;
+	float:left;
+	margin:5px 15px 5px 15px;
+}
+.t-title {
+	padding:10px 15px 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.t-review {
+	width:100%;
+	height:550px;
+	background-color:#FFF;
+	margin-left:50px;
+}
+.tr-title {
+	width:97%;
+	height:35px;
+	border-bottom:#000 dotted 1px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 0 0 15px;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+.footer {
+	width:100%;
+	height:340px;
+	background:#000;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Link {
+	width:30%;
+	height:150px;
+	margin:20px 15px 0 50px;
+	float:left;
+}
+.f-title {
+	width:100%;
+	height:30px;
+	font-size:24px;
+	font-weight:bold;
+}
+.Link a {
+	display:inline;
+	color:#FFF;
+}
+.ChuDe {
+	width:30%;
+	height:150px;
+	margin:20px 15px 0 15px;
+	float:left;
+}
+.ChuDe a {
+	display:inline;
+	color:#FFF;
+}
+.connect {
+	width:30%;
+	height:150px;
+	margin:20px 15px 0 15px;
+	float:left;
+}
+.connect a {
+	margin-right:5px;	
+}
+.info {
+	width:500px;
+	height:100px;
+	margin-left:50px;
+}
+.banner-2 {
+	width:465px;
+	height:174px;
+	margin:30px 0 0 50px;
+	background-image:url(../images/tgdd-galaxy-s7-800-300-1.jpg)
+}
